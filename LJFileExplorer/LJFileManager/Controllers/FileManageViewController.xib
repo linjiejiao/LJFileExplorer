@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FileManageViewController">
@@ -31,18 +30,11 @@
                                     <action selector="onBackClicked:" destination="-1" id="FZy-lM-vLK"/>
                                 </connections>
                             </barButtonItem>
-                            <rightBarButtonItems>
-                                <barButtonItem systemItem="edit" id="mTj-e0-EfO">
-                                    <connections>
-                                        <action selector="onEditClicked:" destination="-1" id="B9W-ya-vpV"/>
-                                    </connections>
-                                </barButtonItem>
-                                <barButtonItem systemItem="camera" id="2N3-Pf-bIA">
-                                    <connections>
-                                        <action selector="addFromAlbum:" destination="-1" id="nbS-f7-kyJ"/>
-                                    </connections>
-                                </barButtonItem>
-                            </rightBarButtonItems>
+                            <barButtonItem key="rightBarButtonItem" systemItem="edit" id="mTj-e0-EfO">
+                                <connections>
+                                    <action selector="onEditClicked:" destination="-1" id="B9W-ya-vpV"/>
+                                </connections>
+                            </barButtonItem>
                         </navigationItem>
                     </items>
                 </navigationBar>
@@ -94,6 +86,6 @@
     </objects>
     <resources>
         <image name="cancel.png" width="30" height="30"/>
-        <image name="more.png" width="30" height="30"/>
+        <image name="more.png" width="24" height="24"/>
     </resources>
 </document>

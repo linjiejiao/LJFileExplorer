@@ -7,12 +7,17 @@
 //
 
 #import "ViewController.h"
+#import "FileManageViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+- (IBAction)onFilesClicked:(UIButton *)sender {
+    FileManageViewController *vc = [[FileManageViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
