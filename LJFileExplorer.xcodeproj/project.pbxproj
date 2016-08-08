@@ -29,6 +29,32 @@
 		8BAD75A31D5888D100B585F7 /* ico_file_common@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75931D5888D100B585F7 /* ico_file_common@2x.png */; };
 		8BAD75A41D5888D100B585F7 /* ico_folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75941D5888D100B585F7 /* ico_folder@2x.png */; };
 		8BAD75A51D5888D100B585F7 /* more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75951D5888D100B585F7 /* more@2x.png */; };
+		8BAD75D71D588FFD00B585F7 /* AssetsLibraryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75AB1D588FFD00B585F7 /* AssetsLibraryUtils.m */; };
+		8BAD75D81D588FFD00B585F7 /* AlbumGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75AE1D588FFD00B585F7 /* AlbumGroupViewController.m */; };
+		8BAD75D91D588FFD00B585F7 /* AlbumGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75AF1D588FFD00B585F7 /* AlbumGroupViewController.xib */; };
+		8BAD75DA1D588FFD00B585F7 /* AlbumPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75B11D588FFD00B585F7 /* AlbumPickViewController.m */; };
+		8BAD75DB1D588FFD00B585F7 /* AlbumPickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75B21D588FFD00B585F7 /* AlbumPickViewController.xib */; };
+		8BAD75DC1D588FFD00B585F7 /* BaseMediaPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75B41D588FFD00B585F7 /* BaseMediaPickerViewController.m */; };
+		8BAD75DD1D588FFD00B585F7 /* AbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75B71D588FFD00B585F7 /* AbumModel.m */; };
+		8BAD75DE1D588FFD00B585F7 /* AlbumGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75B91D588FFD00B585F7 /* AlbumGroupModel.m */; };
+		8BAD75DF1D588FFD00B585F7 /* AlbumItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75BB1D588FFD00B585F7 /* AlbumItemModel.m */; };
+		8BAD75E01D588FFD00B585F7 /* AlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75BE1D588FFD00B585F7 /* AlbumCollectionViewCell.m */; };
+		8BAD75E11D588FFD00B585F7 /* AlbumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75BF1D588FFD00B585F7 /* AlbumCollectionViewCell.xib */; };
+		8BAD75E21D588FFD00B585F7 /* AlbumGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75C11D588FFD00B585F7 /* AlbumGroupTableViewCell.m */; };
+		8BAD75E31D588FFD00B585F7 /* AlbumGroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75C21D588FFD00B585F7 /* AlbumGroupTableViewCell.xib */; };
+		8BAD75E41D588FFD00B585F7 /* AlbumSelectCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75C41D588FFD00B585F7 /* AlbumSelectCollectionView.m */; };
+		8BAD75E51D588FFD00B585F7 /* album_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75C61D588FFD00B585F7 /* album_back@2x.png */; };
+		8BAD75E61D588FFD00B585F7 /* album_group_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75C71D588FFD00B585F7 /* album_group_right@2x.png */; };
+		8BAD75E71D588FFD00B585F7 /* album_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75C81D588FFD00B585F7 /* album_selected@2x.png */; };
+		8BAD75E81D588FFD00B585F7 /* album_unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75C91D588FFD00B585F7 /* album_unselected@2x.png */; };
+		8BAD75E91D588FFD00B585F7 /* icon_movie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75CA1D588FFD00B585F7 /* icon_movie@2x.png */; };
+		8BAD75EA1D588FFD00B585F7 /* icon_picture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75CB1D588FFD00B585F7 /* icon_picture@2x.png */; };
+		8BAD75EB1D588FFD00B585F7 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75CF1D588FFD00B585F7 /* back@2x.png */; };
+		8BAD75EC1D588FFD00B585F7 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75D01D588FFD00B585F7 /* pause@2x.png */; };
+		8BAD75ED1D588FFD00B585F7 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75D11D588FFD00B585F7 /* play@2x.png */; };
+		8BAD75EE1D588FFD00B585F7 /* slide_indecator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD75D21D588FFD00B585F7 /* slide_indecator@2x.png */; };
+		8BAD75EF1D588FFD00B585F7 /* LJAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75D41D588FFD00B585F7 /* LJAVPlayerViewController.m */; };
+		8BAD75F01D588FFD00B585F7 /* SeekSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD75D61D588FFD00B585F7 /* SeekSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +89,44 @@
 		8BAD75931D5888D100B585F7 /* ico_file_common@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_file_common@2x.png"; sourceTree = "<group>"; };
 		8BAD75941D5888D100B585F7 /* ico_folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_folder@2x.png"; sourceTree = "<group>"; };
 		8BAD75951D5888D100B585F7 /* more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@2x.png"; sourceTree = "<group>"; };
+		8BAD75AA1D588FFD00B585F7 /* AssetsLibraryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsLibraryUtils.h; sourceTree = "<group>"; };
+		8BAD75AB1D588FFD00B585F7 /* AssetsLibraryUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetsLibraryUtils.m; sourceTree = "<group>"; };
+		8BAD75AD1D588FFD00B585F7 /* AlbumGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumGroupViewController.h; sourceTree = "<group>"; };
+		8BAD75AE1D588FFD00B585F7 /* AlbumGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumGroupViewController.m; sourceTree = "<group>"; };
+		8BAD75AF1D588FFD00B585F7 /* AlbumGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumGroupViewController.xib; sourceTree = "<group>"; };
+		8BAD75B01D588FFD00B585F7 /* AlbumPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumPickViewController.h; sourceTree = "<group>"; };
+		8BAD75B11D588FFD00B585F7 /* AlbumPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumPickViewController.m; sourceTree = "<group>"; };
+		8BAD75B21D588FFD00B585F7 /* AlbumPickViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumPickViewController.xib; sourceTree = "<group>"; };
+		8BAD75B31D588FFD00B585F7 /* BaseMediaPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMediaPickerViewController.h; sourceTree = "<group>"; };
+		8BAD75B41D588FFD00B585F7 /* BaseMediaPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMediaPickerViewController.m; sourceTree = "<group>"; };
+		8BAD75B61D588FFD00B585F7 /* AbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbumModel.h; sourceTree = "<group>"; };
+		8BAD75B71D588FFD00B585F7 /* AbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbumModel.m; sourceTree = "<group>"; };
+		8BAD75B81D588FFD00B585F7 /* AlbumGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumGroupModel.h; sourceTree = "<group>"; };
+		8BAD75B91D588FFD00B585F7 /* AlbumGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumGroupModel.m; sourceTree = "<group>"; };
+		8BAD75BA1D588FFD00B585F7 /* AlbumItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumItemModel.h; sourceTree = "<group>"; };
+		8BAD75BB1D588FFD00B585F7 /* AlbumItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumItemModel.m; sourceTree = "<group>"; };
+		8BAD75BD1D588FFD00B585F7 /* AlbumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumCollectionViewCell.h; sourceTree = "<group>"; };
+		8BAD75BE1D588FFD00B585F7 /* AlbumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumCollectionViewCell.m; sourceTree = "<group>"; };
+		8BAD75BF1D588FFD00B585F7 /* AlbumCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumCollectionViewCell.xib; sourceTree = "<group>"; };
+		8BAD75C01D588FFD00B585F7 /* AlbumGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumGroupTableViewCell.h; sourceTree = "<group>"; };
+		8BAD75C11D588FFD00B585F7 /* AlbumGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumGroupTableViewCell.m; sourceTree = "<group>"; };
+		8BAD75C21D588FFD00B585F7 /* AlbumGroupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumGroupTableViewCell.xib; sourceTree = "<group>"; };
+		8BAD75C31D588FFD00B585F7 /* AlbumSelectCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumSelectCollectionView.h; sourceTree = "<group>"; };
+		8BAD75C41D588FFD00B585F7 /* AlbumSelectCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumSelectCollectionView.m; sourceTree = "<group>"; };
+		8BAD75C61D588FFD00B585F7 /* album_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "album_back@2x.png"; sourceTree = "<group>"; };
+		8BAD75C71D588FFD00B585F7 /* album_group_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "album_group_right@2x.png"; sourceTree = "<group>"; };
+		8BAD75C81D588FFD00B585F7 /* album_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "album_selected@2x.png"; sourceTree = "<group>"; };
+		8BAD75C91D588FFD00B585F7 /* album_unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "album_unselected@2x.png"; sourceTree = "<group>"; };
+		8BAD75CA1D588FFD00B585F7 /* icon_movie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_movie@2x.png"; sourceTree = "<group>"; };
+		8BAD75CB1D588FFD00B585F7 /* icon_picture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_picture@2x.png"; sourceTree = "<group>"; };
+		8BAD75CF1D588FFD00B585F7 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		8BAD75D01D588FFD00B585F7 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		8BAD75D11D588FFD00B585F7 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		8BAD75D21D588FFD00B585F7 /* slide_indecator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slide_indecator@2x.png"; sourceTree = "<group>"; };
+		8BAD75D31D588FFD00B585F7 /* LJAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJAVPlayerViewController.h; sourceTree = "<group>"; };
+		8BAD75D41D588FFD00B585F7 /* LJAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJAVPlayerViewController.m; sourceTree = "<group>"; };
+		8BAD75D51D588FFD00B585F7 /* SeekSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeekSlider.h; sourceTree = "<group>"; };
+		8BAD75D61D588FFD00B585F7 /* SeekSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeekSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +159,8 @@
 		8BAD75641D58862700B585F7 /* LJFileExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				8BAD75A81D588FFD00B585F7 /* FileInOut */,
+				8BAD75CC1D588FFD00B585F7 /* FileOpen */,
 				8BAD757C1D5888D100B585F7 /* LJFileManager */,
 				8BAD75681D58862700B585F7 /* AppDelegate.h */,
 				8BAD75691D58862700B585F7 /* AppDelegate.m */,
@@ -177,6 +243,114 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		8BAD75A81D588FFD00B585F7 /* FileInOut */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD75A91D588FFD00B585F7 /* LJAlbumPicker */,
+			);
+			path = FileInOut;
+			sourceTree = "<group>";
+		};
+		8BAD75A91D588FFD00B585F7 /* LJAlbumPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD75AA1D588FFD00B585F7 /* AssetsLibraryUtils.h */,
+				8BAD75AB1D588FFD00B585F7 /* AssetsLibraryUtils.m */,
+				8BAD75AC1D588FFD00B585F7 /* Controllers */,
+				8BAD75B51D588FFD00B585F7 /* Models */,
+				8BAD75BC1D588FFD00B585F7 /* Views */,
+			);
+			path = LJAlbumPicker;
+			sourceTree = "<group>";
+		};
+		8BAD75AC1D588FFD00B585F7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD75AD1D588FFD00B585F7 /* AlbumGroupViewController.h */,
+				8BAD75AE1D588FFD00B585F7 /* AlbumGroupViewController.m */,
+				8BAD75AF1D588FFD00B585F7 /* AlbumGroupViewController.xib */,
+				8BAD75B01D588FFD00B585F7 /* AlbumPickViewController.h */,
+				8BAD75B11D588FFD00B585F7 /* AlbumPickViewController.m */,
+				8BAD75B21D588FFD00B585F7 /* AlbumPickViewController.xib */,
+				8BAD75B31D588FFD00B585F7 /* BaseMediaPickerViewController.h */,
+				8BAD75B41D588FFD00B585F7 /* BaseMediaPickerViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8BAD75B51D588FFD00B585F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD75B61D588FFD00B585F7 /* AbumModel.h */,
+				8BAD75B71D588FFD00B585F7 /* AbumModel.m */,
+				8BAD75B81D588FFD00B585F7 /* AlbumGroupModel.h */,
+				8BAD75B91D588FFD00B585F7 /* AlbumGroupModel.m */,
+				8BAD75BA1D588FFD00B585F7 /* AlbumItemModel.h */,
+				8BAD75BB1D588FFD00B585F7 /* AlbumItemModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BAD75BC1D588FFD00B585F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD75BD1D588FFD00B585F7 /* AlbumCollectionViewCell.h */,
+				8BAD75BE1D588FFD00B585F7 /* AlbumCollectionViewCell.m */,
+				8BAD75BF1D588FFD00B585F7 /* AlbumCollectionViewCell.xib */,
+				8BAD75C01D588FFD00B585F7 /* AlbumGroupTableViewCell.h */,
+				8BAD75C11D588FFD00B585F7 /* AlbumGroupTableViewCell.m */,
+				8BAD75C21D588FFD00B585F7 /* AlbumGroupTableViewCell.xib */,
+				8BAD75C31D588FFD00B585F7 /* AlbumSelectCollectionView.h */,
+				8BAD75C41D588FFD00B585F7 /* AlbumSelectCollectionView.m */,
+				8BAD75C51D588FFD00B585F7 /* Images */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8BAD75C51D588FFD00B585F7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD75C61D588FFD00B585F7 /* album_back@2x.png */,
+				8BAD75C71D588FFD00B585F7 /* album_group_right@2x.png */,
+				8BAD75C81D588FFD00B585F7 /* album_selected@2x.png */,
+				8BAD75C91D588FFD00B585F7 /* album_unselected@2x.png */,
+				8BAD75CA1D588FFD00B585F7 /* icon_movie@2x.png */,
+				8BAD75CB1D588FFD00B585F7 /* icon_picture@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8BAD75CC1D588FFD00B585F7 /* FileOpen */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD75CD1D588FFD00B585F7 /* LJAVPlayer */,
+			);
+			path = FileOpen;
+			sourceTree = "<group>";
+		};
+		8BAD75CD1D588FFD00B585F7 /* LJAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD75CE1D588FFD00B585F7 /* Images */,
+				8BAD75D31D588FFD00B585F7 /* LJAVPlayerViewController.h */,
+				8BAD75D41D588FFD00B585F7 /* LJAVPlayerViewController.m */,
+				8BAD75D51D588FFD00B585F7 /* SeekSlider.h */,
+				8BAD75D61D588FFD00B585F7 /* SeekSlider.m */,
+			);
+			path = LJAVPlayer;
+			sourceTree = "<group>";
+		};
+		8BAD75CE1D588FFD00B585F7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD75CF1D588FFD00B585F7 /* back@2x.png */,
+				8BAD75D01D588FFD00B585F7 /* pause@2x.png */,
+				8BAD75D11D588FFD00B585F7 /* play@2x.png */,
+				8BAD75D21D588FFD00B585F7 /* slide_indecator@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,18 +410,32 @@
 			files = (
 				8BAD759F1D5888D100B585F7 /* cancel@2x.png in Resources */,
 				8BAD75A31D5888D100B585F7 /* ico_file_common@2x.png in Resources */,
+				8BAD75ED1D588FFD00B585F7 /* play@2x.png in Resources */,
 				8BAD759E1D5888D100B585F7 /* back_folder@2x.png in Resources */,
+				8BAD75E61D588FFD00B585F7 /* album_group_right@2x.png in Resources */,
+				8BAD75DB1D588FFD00B585F7 /* AlbumPickViewController.xib in Resources */,
 				8BAD75A01D5888D100B585F7 /* checkbox_selected@2x.png in Resources */,
+				8BAD75E51D588FFD00B585F7 /* album_back@2x.png in Resources */,
+				8BAD75EC1D588FFD00B585F7 /* pause@2x.png in Resources */,
+				8BAD75EB1D588FFD00B585F7 /* back@2x.png in Resources */,
 				8BAD75751D58862700B585F7 /* LaunchScreen.storyboard in Resources */,
 				8BAD75971D5888D100B585F7 /* FileManageViewController.xib in Resources */,
 				8BAD75A41D5888D100B585F7 /* ico_folder@2x.png in Resources */,
 				8BAD75A21D5888D100B585F7 /* ico_arrow_right@2x.png in Resources */,
+				8BAD75E71D588FFD00B585F7 /* album_selected@2x.png in Resources */,
+				8BAD75E31D588FFD00B585F7 /* AlbumGroupTableViewCell.xib in Resources */,
+				8BAD75E11D588FFD00B585F7 /* AlbumCollectionViewCell.xib in Resources */,
 				8BAD75721D58862700B585F7 /* Assets.xcassets in Resources */,
+				8BAD75D91D588FFD00B585F7 /* AlbumGroupViewController.xib in Resources */,
+				8BAD75E81D588FFD00B585F7 /* album_unselected@2x.png in Resources */,
+				8BAD75EE1D588FFD00B585F7 /* slide_indecator@2x.png in Resources */,
 				8BAD759B1D5888D100B585F7 /* FilesListHeaderView.xib in Resources */,
 				8BAD75701D58862700B585F7 /* Main.storyboard in Resources */,
 				8BAD759D1D5888D100B585F7 /* FileTableViewCell.xib in Resources */,
+				8BAD75EA1D588FFD00B585F7 /* icon_picture@2x.png in Resources */,
 				8BAD75A11D5888D100B585F7 /* checkbox_unselected@2x.png in Resources */,
 				8BAD75A51D5888D100B585F7 /* more@2x.png in Resources */,
+				8BAD75E91D588FFD00B585F7 /* icon_movie@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,11 +448,23 @@
 			files = (
 				8BAD756D1D58862700B585F7 /* ViewController.m in Sources */,
 				8BAD759C1D5888D100B585F7 /* FileTableViewCell.m in Sources */,
+				8BAD75E41D588FFD00B585F7 /* AlbumSelectCollectionView.m in Sources */,
 				8BAD75981D5888D100B585F7 /* FileModel.m in Sources */,
 				8BAD75961D5888D100B585F7 /* FileManageViewController.m in Sources */,
+				8BAD75D71D588FFD00B585F7 /* AssetsLibraryUtils.m in Sources */,
+				8BAD75EF1D588FFD00B585F7 /* LJAVPlayerViewController.m in Sources */,
 				8BAD756A1D58862700B585F7 /* AppDelegate.m in Sources */,
+				8BAD75DC1D588FFD00B585F7 /* BaseMediaPickerViewController.m in Sources */,
+				8BAD75DE1D588FFD00B585F7 /* AlbumGroupModel.m in Sources */,
+				8BAD75D81D588FFD00B585F7 /* AlbumGroupViewController.m in Sources */,
+				8BAD75DD1D588FFD00B585F7 /* AbumModel.m in Sources */,
 				8BAD75671D58862700B585F7 /* main.m in Sources */,
+				8BAD75DF1D588FFD00B585F7 /* AlbumItemModel.m in Sources */,
+				8BAD75E01D588FFD00B585F7 /* AlbumCollectionViewCell.m in Sources */,
+				8BAD75DA1D588FFD00B585F7 /* AlbumPickViewController.m in Sources */,
+				8BAD75E21D588FFD00B585F7 /* AlbumGroupTableViewCell.m in Sources */,
 				8BAD759A1D5888D100B585F7 /* FilesListHeaderView.m in Sources */,
+				8BAD75F01D588FFD00B585F7 /* SeekSlider.m in Sources */,
 				8BAD75991D5888D100B585F7 /* SandBoxFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
